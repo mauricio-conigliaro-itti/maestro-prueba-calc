@@ -1,0 +1,24 @@
+appId: "com.android.vending"
+---
+- tapOn: "Play Store"
+- tapOn: "Search"
+- tapOn:
+    point: "34%,8%"
+- inputText: "Calculadora"
+- tapOn:
+    point: "92%,92%"
+- tapOn:
+    "Calculator\nGoogle LLC\nTools\nCalculators\nStar rating: 4.2\n1.7 MB\nDownloaded\
+    \ 1 billion plus times\n"
+- tapOn:
+    point: "50%,30%"
+- tapOn:
+    text: "Not now"
+    optional: true
+- tapOn:
+    point: "73%,23%"
+- tapOn: "9"
+- tapOn: "multiply"
+- tapOn: "8"
+- tapOn: "equals"
+- assertVisible: "72"
